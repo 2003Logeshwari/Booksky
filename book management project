@@ -1,0 +1,13 @@
+Booksky is a mini front-end project built using HTML, CSS, and JavaScript that lets users manage a list of books — add new ones, view details, and delete them easily.
+
+Features:
+
+  Add books with title, author, and description.
+
+  Delete books dynamically.
+
+Technologies Used:
+
+  HTML
+  CSS
+  JavaScript
