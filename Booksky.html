@@ -1,1 +1,48 @@
-In this project we can add book,we can remove the read books
+// In this project we can add book,we can remove the read books
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKSKY</title>
+    <link rel="stylesheet" href="./book.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="navbar">
+        <h1>Booksky</h1>
+    </div>
+    <div class="container">
+        <div class="book_container">
+            <h2>Wings of fire</h2>
+            <h5>Arun Tiwari</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt molestiae voluptates ad! Accusamus aspernatur sequi dolor quod porro adipisci? Ducimus aut ut repudiandae quo quaerat, assumenda accusantium expedita harum ad!
+            </p>
+            <button onclick="deletebook(event)">delete</button>
+        </div>
+
+       
+    </div>
+
+    <div class="popup_overlay"></div>
+    <div class="popup_book">
+        <h2>Add Book</h2>
+        <form >
+            <input type="text" placeholder="Add Title " id="book_title_input">
+            <input type="text" placeholder="Add Author " id="book_author_input">
+            <textarea  placeholder="Short description" id="book_description_input"></textarea>
+            <button id="add_book">ADD</button>
+            <button id="cancel_popup">CANCEL</button>
+
+        </form>
+    </div>
+    <button class="add_button" >+</button>
+
+
+    
+    <script src="./book.js"></script>
+</body>
+</html>
